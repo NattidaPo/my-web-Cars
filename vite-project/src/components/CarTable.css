@@ -1,0 +1,19 @@
+/* CarTable.css */
+.ant-table-thead > tr > th {
+  background-color: #fafafa; /* สีพื้นหลังของหัวตาราง */
+  color: #ffffff; /* สีตัวอักษรของหัวตาราง */
+}
+
+.ant-table-tbody > tr > td {
+  color: #000000; 
+  background-color: #a6aac3; 
+}
+
+.ant-table-row:hover > td {
+  background-color: #ffffff; /* สีเมื่อ hover ที่แถว */
+}
+
+.ant-pagination-item-active {
+  background-color: #0a71e6; 
+  border-color: #0a71e6; /* สีขอบของหมายเลขหน้าปัจจุบัน */
+}

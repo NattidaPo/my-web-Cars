@@ -1,0 +1,48 @@
+body {
+  background-color: #e3e5e7; /* สีพื้นหลังของแอป */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 100% ของความสูงหน้าจอ*/
+}
+
+.ant-layout {
+  background-color: #ffffff; /* สีพื้นหลังของ Layout */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* จัดแนวกลางในแนวตั้ง */
+  width: 100%;
+  min-height: 100vh; /* Layout สูงเต็มหน้า */
+}
+
+.custom-header {
+  background-color: #01183b; 
+  color: #ffffff; 
+  text-align: center; /* ทำให้อยู่ตรงกลาง */
+  font-size: 20px; 
+  padding: 10px; 
+  width: 100%; /* header กว้าง100% */
+  position: relative; 
+}
+
+.custom-content {
+  background-color: #ffffff;
+  padding: 50px;
+  margin: 20px auto; /* ปรับให้ยังคงอยู่ตรงกลางหน้าเว็บ */
+  max-width: 800px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อให้ดูมีมิติ */
+  border-radius: 8px;
+}
+
+.custom-select {
+  background-color: #ffffff; /* สีพื้นหลังของ Select */
+  color: #000000;
+  border-radius: 5px; 
+}
+
+.custom-search {
+  background-color: #ffffff; /* สีพื้นหลังของ Search */
+  border-radius: 5px; /* มุมมน */
+}
